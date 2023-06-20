@@ -1,4 +1,4 @@
-﻿//Code Clean up:
+﻿//#using Code Clean up to removing unnecessary codes:
 /*
 Ctrl + K, Ctrl + D keys or run Code Cleanup inside Visual Studio is to click on the broom icon.
 That will run the following actions:
@@ -8,6 +8,15 @@ Remove unnecessary usings
 Sort usings
 Apply file header preferences
 
+ */
+//....................................................
+/*
+#Avoid complicated conditional logic in your code by refactoring nested ifs.
+
+    There might be cases in your code where you have nested conditional logic. 
+    You know, if inside if, inside if. 
+    I call that code Ifception.
+    The easiest way to refactor nested if statements is to use a guard clause. Visual Studio has the Invert if code fix for nested if statements
  */
 namespace CleanCodeTips
 {
