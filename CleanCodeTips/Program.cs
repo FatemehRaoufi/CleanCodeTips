@@ -42,29 +42,30 @@ class Program
     {
         Console.WriteLine("Hello World!");
         Console.WriteLine("I'm going to a new method.");
-       /*
-        
-        MethodParameters methodParameters = new MethodParameters();
-        var addressDetsils = new AddressDetails
-        {
-            Name = "John",
-            HomeAddress = "New York",
-            Country = "USA",
-            Email = "john@methodpoet.com",
-            FileLocation = "C:\\temp"
-        };
-        //methodParameters.NewSaveHomeAddress("John",
-        //    "New York",
-        //    "USA",
-        //    "john@methodpoet.com",
-        //    "C:\\temp",
-        //    addressDetsils);
-        methodParameters.CleanCodeSaveHomeAddress(addressDetsils);
-       */
+        //https://methodpoet.com/clean-code/
+        /*
+
+         MethodParameters methodParameters = new MethodParameters();
+         var addressDetsils = new AddressDetails
+         {
+             Name = "John",
+             HomeAddress = "New York",
+             Country = "USA",
+             Email = "john@methodpoet.com",
+             FileLocation = "C:\\temp"
+         };
+         //methodParameters.NewSaveHomeAddress("John",
+         //    "New York",
+         //    "USA",
+         //    "john@methodpoet.com",
+         //    "C:\\temp",
+         //    addressDetsils);
+         methodParameters.CleanCodeSaveHomeAddress(addressDetsils);
+        */
 
 
     }
-  
+
 }
 
 //https://methodpoet.com/extract-method/

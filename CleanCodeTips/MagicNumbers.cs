@@ -19,8 +19,9 @@ namespace CleanCodeTips
             return -1;
         }
 
-        //using constants or some enums as Clean Codes:
-      
+       
+        //using constants or some enums instead of magic numbers/magic strings as Clean Codes:
+
         public enum State
         {
             Valid = 5,
