@@ -25,7 +25,8 @@ class Program
     {
         
         
-        /*
+        /* 
+        ExtractMethod,
         Using PrintOutput(); method,
         instead of using directly these codes:  
             Console.WriteLine("Hello World!");
